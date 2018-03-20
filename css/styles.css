@@ -1,0 +1,37 @@
+body{
+  background-image: url("https://cdn.pixabay.com/photo/2017/10/10/21/46/laptop-2838917__340.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav li {
+  float: right;
+}
+
+nav ul{
+  overflow: hidden;
+}
+ nav a{
+    display: block;
+  }
+
+nav ul a:hover{
+  background-attachment:transparent;
+  text-align: right;
+}
+nav ,ul ,li, a{
+    text-decoration:none;
+    padding: 15px;
+    color:red;
+    list-style-type: none;
+    background-attachment: transparent;
+}
+h5{
+  text-align: center;
+  font-style: italic;
+  color: white;
+  font-size: large;
+}
+.links{
+  font-style: italic;
+  color:blue;
+}
